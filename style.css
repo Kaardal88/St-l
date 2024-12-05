@@ -67,7 +67,7 @@ h1 {
     color: black;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 20px 40px;
     cursor: pointer;
     transition: background 0.2s;
     display: flex;
@@ -102,10 +102,10 @@ h1 {
 
 p{
     color: #fdfdfd;
-    font-size: x-small;
+    font-size: small;
 }
 
 .check{
 color: #fdfdfd;
-font-size: x-small;
+font-size: medium;
 }
