@@ -1,5 +1,4 @@
-.checked{
-    background-color: green;
-    
-   
+.card,
+.checked {
+  background-color: green;
 }

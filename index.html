@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Støl | Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
+    <link rel="styleshett" href="check.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="sessionCheck.js" defer></script>
+  </head>
+  <body>
     <main>
-    <div class="dashboard">
+      <div class="dashboard">
         <h1>Treningsdashboard</h1>
-        <div class="card" onclick="window.location.href='dag1.html'">
-            <h2>Dag 1</h2>
-            <button>Tren</button>
+
+        <div class="card">
+          <h2>Dag 1</h2>
+          <button onclick="window.location.href='dag1.html'">Tren</button>
         </div>
+
         <div class="card" onclick="window.location.href='dag2.html'">
-            <h2>Dag 2</h2>
-            <button>Tren</button>
+          <h2>Dag 2</h2>
+          <button>Tren</button>
         </div>
         <div class="card" onclick="window.location.href='dag3.html'">
-            <h2>Dag 3</h2>
-            <button>Tren</button>
+          <h2>Dag 3</h2>
+          <button>Tren</button>
         </div>
-    </div>
+        <div
+          class="card frida-card"
+          onclick="window.location.href='/frida/frida.html'"
+        >
+          <h2>Treningsprogram Frida</h2>
+          <button>Start</button>
+        </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>

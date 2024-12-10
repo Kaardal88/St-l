@@ -1,111 +1,116 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #18191A;
-    width: 100%;
-    height: 100%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #18191a;
+  width: 100%;
+  height: 100%;
 }
 
-main{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h1 {
-    text-align: center;
-    margin: 20px 0;
-    color: #fdfdfd;
-    font-size: large;
+h1,
+h3 {
+  text-align: center;
+  margin: 20px 0;
+  color: #fdfdfd;
+  font-size: large;
 }
 
-.dashboard, .day-page {
-    width: 100%;
-    
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.dashboard,
+.day-page {
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-    background: #333;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    margin: 10px 0;
-    width: 80%;
-    max-width: 300px;
-    cursor: pointer;
-    transition: transform 0.2s;
+  background: #333;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 300px;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
 
-
+.frida-card {
+  background-image: linear-gradient(45deg, pink, blue);
+}
 
 .card h2 {
-    margin-bottom: 10px;
-    color: #fdfdfd;
+  margin-bottom: 10px;
+  color: #fdfdfd;
 }
 
 .card button {
-    background: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background 0.2s;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.2s;
 }
 
-.return-dash {
-    background: orange;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    padding: 20px 40px;
-    cursor: pointer;
-    transition: background 0.2s;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
+.return-dash,
+.frida-dash {
+  background: orange;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 40px;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
 }
 
 .card button:hover {
-    background: #0056b3;
+  background: #0056b3;
 }
 
 .exercise-card {
-    background: #333;
-   
-    border-radius: 10px;
-    padding: 15px;
-    margin: 10px 0;
-    width: 100%;
+  background: #333;
+
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  width: 100%;
 }
 
 .exercise-card h2 {
-    margin-bottom: 5px;
-    color: #fdfdfd;
-    font-size: medium;
+  margin-bottom: 5px;
+  color: #fdfdfd;
+  font-size: medium;
 }
 
 .exercise-card label {
-    display: block;
-    margin-top: 10px;
+  display: block;
+  margin-top: 10px;
 }
 
-p{
-    color: #fdfdfd;
-    font-size: small;
+p {
+  color: #fdfdfd;
+  font-size: small;
 }
 
-.check{
-color: #fdfdfd;
-font-size: large;
+.check {
+  color: #fdfdfd;
+  font-size: large;
 }
